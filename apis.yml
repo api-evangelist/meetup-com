@@ -1,0 +1,32 @@
+aid: meetup-com
+name: Meetup.com
+description: "Data about Meetups from Meetup.com"
+url: https://www.meetup.com/api/guide
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Social"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Social
+  - Public APIs
+apis:
+  - name: Meetup.com
+    description: "Data about Meetups from Meetup.com"
+    humanURL: https://www.meetup.com/api/guide
+    baseURL: https://www.meetup.com/api/guide
+    tags:
+      - Social
+    properties:
+      - type: Documentation
+        url: https://www.meetup.com/api/guide
+common:
+  - type: Website
+    url: https://www.meetup.com/api/guide
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
