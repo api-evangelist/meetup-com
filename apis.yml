@@ -23,10 +23,16 @@ apis:
       - type: Documentation
         url: https://www.meetup.com/api/guide
 common:
+  - type: VulnerabilityDisclosure
+    url: security/meetup-com-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/meetup-com-domain-security.yml
   - type: Website
     url: https://www.meetup.com/api/guide
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - url: https://www.meetup.com/blog/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
